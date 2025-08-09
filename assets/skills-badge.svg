@@ -1,0 +1,133 @@
+<!-- assets/skills-badge.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 220" width="920" height="440" role="img" aria-label="Ali Mohammadnia skills badge">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="1" stop-color="#0072ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title { font: 700 18px/1.1 "Segoe UI", Roboto, "Helvetica Neue", Arial; fill:#0b1020; }
+      .sub { font: 500 12px "Segoe UI", Roboto, Arial; fill:#223044; }
+      .center-name { font: 800 28px/1 "Segoe UI", Roboto, Arial; fill: url(#g1); }
+      .node { font: 600 10px monospace; fill: #0b1020; pointer-events:none; }
+      .orbit { fill: none; stroke: rgba(7,20,40,0.06); stroke-width:2; }
+      .core { fill:#0b1220; stroke: #ffffff10; stroke-width:1; }
+      .pulse { filter:url(#glow); opacity:0.9; }
+    </style>
+  </defs>
+
+  <!-- Left text block -->
+  <g transform="translate(14,18)">
+    <text x="0" y="14" class="title">Ali Mohammadnia</text>
+    <text x="0" y="36" class="sub">Back-end Web Developer • Site Reliability Engineer</text>
+    <text x="0" y="56" class="sub">Codeholic. DevOps-minded. Docker · Kubernetes · Django · Python</text>
+  </g>
+
+  <!-- Central badge -->
+  <g transform="translate(240,110)">
+    <!-- outer orbit -->
+    <circle r="86" class="orbit"/>
+    <circle r="62" class="orbit"/>
+
+    <!-- rotating group for orbits -->
+    <g id="rotor">
+      <!-- core -->
+      <g transform="translate(0,0)">
+        <circle r="44" class="core"/>
+        <circle r="40" class="pulse" fill="url(#g1)" opacity="0.18"/>
+        <text class="center-name" x="-28" y="8">ALI</text>
+      </g>
+
+      <!-- nodes on outer orbit (animated with rotation transforms) -->
+      <!-- Node 1 -->
+      <g transform="translate(0,-86)" >
+        <circle r="16" fill="#fff" stroke="#e6eefc" stroke-width="1.5"/>
+        <text class="node" x="-11" y="4">Py</text>
+      </g>
+
+      <g transform="translate(61,-61)">
+        <circle r="14" fill="#fff" stroke="#fde8d9" stroke-width="1.5"/>
+        <text class="node" x="-10" y="4">DJ</text>
+      </g>
+
+      <g transform="translate(86,0)">
+        <circle r="16" fill="#fff" stroke="#e6f7ea" stroke-width="1.5"/>
+        <text class="node" x="-12" y="4">TS</text>
+      </g>
+
+      <g transform="translate(61,61)">
+        <circle r="14" fill="#fff" stroke="#f4e7ff" stroke-width="1.5"/>
+        <text class="node" x="-10" y="4">K8s</text>
+      </g>
+
+      <g transform="translate(0,86)">
+        <circle r="16" fill="#fff" stroke="#fff0d6" stroke-width="1.5"/>
+        <text class="node" x="-13" y="4">DB</text>
+      </g>
+
+      <g transform="translate(-61,61)">
+        <circle r="14" fill="#fff" stroke="#e8f7ff" stroke-width="1.5"/>
+        <text class="node" x="-12" y="4">DK</text>
+      </g>
+
+      <g transform="translate(-86,0)">
+        <circle r="16" fill="#fff" stroke="#fde5f0" stroke-width="1.5"/>
+        <text class="node" x="-12" y="4">Rv</text>
+      </g>
+
+      <g transform="translate(-61,-61)">
+        <circle r="14" fill="#fff" stroke="#eaf6e7" stroke-width="1.5"/>
+        <text class="node" x="-10" y="4">Go</text>
+      </g>
+    </g>
+
+    <!-- small inner tech ring -->
+    <g id="inner">
+      <g transform="translate(0,-62)">
+        <circle r="10" fill="#fff" stroke="#dfe9ff" stroke-width="1.2"/>
+        <text class="node" x="-6" y="3">RPC</text>
+      </g>
+      <g transform="translate(52,-30)">
+        <circle r="10" fill="#fff" stroke="#f0f0ff" stroke-width="1.2"/>
+        <text class="node" x="-6" y="3">Ws</text>
+      </g>
+      <g transform="translate(52,30)">
+        <circle r="10" fill="#fff" stroke="#f6fff1" stroke-width="1.2"/>
+        <text class="node" x="-6" y="3">CE</text>
+      </g>
+      <g transform="translate(0,62)">
+        <circle r="10" fill="#fff" stroke="#fff7e6" stroke-width="1.2"/>
+        <text class="node" x="-6" y="3">CI</text>
+      </g>
+      <g transform="translate(-52,30)">
+        <circle r="10" fill="#fff" stroke="#fff0f6" stroke-width="1.2"/>
+        <text class="node" x="-6" y="3">KB</text>
+      </g>
+      <g transform="translate(-52,-30)">
+        <circle r="10" fill="#fff" stroke="#e6fff4" stroke-width="1.2"/>
+        <text class="node" x="-6" y="3">WF</text>
+      </g>
+    </g>
+
+    <!-- rotate the rotor group slowly -->
+    <animateTransform xlink:href="#rotor" attributeName="transform" attributeType="XML"
+          type="rotate" from="0 0 0" to="360 0 0" dur="24s" repeatCount="indefinite" />
+
+    <!-- subtle inner wobble for core to feel alive -->
+    <animateTransform attributeName="transform" attributeType="XML"
+      type="scale" values="1;1.03;1" dur="3.8s" repeatCount="indefinite" additive="sum" />
+
+  </g>
+
+  <!-- footer small legend -->
+  <g transform="translate(12,160)">
+    <text class="sub">Quick legend — Py: Python · DJ: Django · TS: TypeScript · DK: Docker · K8s: Kubernetes · DB: SQL/NoSQL · Go: GoLang · Rv: Redis</text>
+  </g>
+</svg>
