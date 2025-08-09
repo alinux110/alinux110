@@ -1,6 +1,6 @@
 # Hi — I'm Ali (PsymoNiko) 👋
 
-<img align="right" src="./assets/skills-badge.svg" width="460" alt="Ali Mohammadnia skills badge" />
+<img align="right" src="assets/skills-badge.svg" width="460" alt="Ali Mohammadnia skills badge" />
 
 **Ali Mohammadnia — Back-end Web Developer & Site Reliability Engineer**  
 Codeholic; building reliable, scalable systems with Python, Django, Docker & Kubernetes.  
