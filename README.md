@@ -1,92 +1,75 @@
-# 👋 Hi — I'm **Ali Mohammadnia** (a.k.a. **PsymoNiko**)
 
-> Codeholic back-end dev turned Site Reliability Engineer (SRE).  
-> I ship robust, observable, and scalable systems — then automate the boring parts.  
-> Find my work and projects on GitHub. 0
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+👋+My+name+is+Ali;I+am+A+Site+Reliability+Engineer+💻)](https://git.io/typing-svg)
 
----
+# 📈 History 
+[![](https://visitcount.itsvg.in/api?id=PsymoNiko&icon=2&color=8)](https://visitcount.itsvg.in)
 
-## 🚀 Snapshot
-- Role: **Site Reliability Engineer / Back-end Web Developer**. 1  
-- Location: Iran — actively building and sharing open-source tools. 2  
-- Website & profiles: [Personal site](https://alimohammadnia.ir/) · [LinkedIn](https://www.linkedin.com/in/alimohammadnia) · [StackOverflow]. 3
+![snake gif](https://github.com/psymoniko/PsymoNiko/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
-## ✨ What I build
-I design small-to-medium distributed systems that are clear to operate and simple to extend. I like combining backend engineering with ops tooling so teams can move fast without losing control.
+# 💫 About Me  
+👋 Hi! I'm a passionate Site Reliability Engineer (SRE) working on challenging projects to deliver reliable and scalable solutions.  
+💬 Let's connect and share ideas!  
 
 ---
 
-## 🔭 Featured Projects (Pinned)
-> Short curated list — check the repos for live demos and README details. 4
+# 💻 Tech Stack  
+### Languages & Frameworks:  
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
+  <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20Web%20Tokens"/>
+  <img src="https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"/>
+</p>
 
-- **bedepacko** — public template for quick project bootstraps (Shell).  
-- **ChatOnPayment** — CSS-based chat/payment UI experiment.  
-- **auto-doc-collector** — Python/Django package to collect & store docs while developing.  
-- **gitup-package** — Shell utility to simplify repo tasks.  
-- **diagram-generator** — Python tool for programmatic diagram generation.
+### SQL/NoSQL Databases & Storages:  
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"/>
+</p>
 
-*(These are your pinned repos — perfect for showcasing both infra tooling and creative front-end experiments.)* 5
+### Tools:  
+<p align="center">
+  <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Sentry-black?style=for-the-badge&logo=Sentry&logoColor=#362D59"/>
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white"/>
+</p>
 
----
-
-## 🧰 Tech & Tools I use
-**Languages & Frameworks**  
-Python · Django · FastAPI · Shell scripts · CSS
-
-**Infra & Observability**  
-Docker · Docker Compose · Nginx · Prometheus · Grafana · Jaeger · Harbor · Portainer
-
-**Databases & Storage**  
-PostgreSQL · Redis · (SQL/NoSQL workflows)
-
-**CI / Version Control**  
-GitHub Actions · git · GitHub
-
-*(Swap or reorder these to match what you want to highlight for recruiters or collaborators.)*
-
----
-
-## 📈 How I approach projects
-- Start with a **small, testable core** (the smallest thing that can possibly work).  
-- Add **observability** (metrics, logs, traces) before adding “cool features”.  
-- Automate deployments and backups so humans only do interesting work.  
-- Write small, well-documented tools that I can reuse across teams.
-
----
-
-## 🧩 Collaboration & Contributions
-I welcome:
-- Improving documentation & developer experience.
-- DevOps / SRE automation and observability projects.
-- Small Python/Django utilities and infra templates.
-
-If you want to collaborate: open an issue, send a PR, or ping me on LinkedIn. 6
+### CI/CD & Version Control:  
+<p align="center">
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"/>
+  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/teamcity-000000.svg?style=for-the-badge&logo=teamcity&logoColor=white"/>
+</p>
 
 ---
 
-## 📬 Contact
-- **Email:** `you@domain.com` *(replace with your email)*  
-- **GitHub:** [PsymoNiko](https://github.com/PsymoNiko) · **Website:** https://alimohammadnia.ir/ · **LinkedIn:** https://www.linkedin.com/in/alimohammadnia. 7
+# 🖥 Operating Systems:  
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+</p>
+
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&count=1"/>
+  <a href="https://app.daily.dev/psymoniko"><img src="https://api.daily.dev/devcards/v2/XMKgabfdG3MViOwIBRQPA.png?type=default&r=q1z" width="356" alt="Ali Mohammadnia's Dev Card"/></a>
+</p>
 
 ---
-
-## 🎯 Quick start for repo visitors
-1. Pick a pinned repo above.  
-2. Read the project README for setup & examples.  
-3. Run tests, open an issue if something's unclear, or propose a small PR.
-
----
-
-## 🧠 Fun footer
-> "My words are weapons — but my scripts are tools."  
-> — Ali (PsymoNiko)
-
----
-
-### Want this README in another style?
-- Short & professional (for resumes)  
-- Playful & creative (for portfolio)  
-- Persian (Farsi) translation  
-Tell me which and I’ll instantly generate it.
